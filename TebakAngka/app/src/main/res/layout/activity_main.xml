@@ -26,14 +26,15 @@
 		android:inputType="numberSigned"
 		/>
 
+<!--	-->
+
 	<Button
 		android:id="@+id/guess_button"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:layout_margin="10dp"
-		android:text="@string/guess"
 		android:onClick="handleGuess"
-		/>
+		android:text="@string/guess" />
 
 	<Button
 		android:id="@+id/reset_button"
